@@ -1,0 +1,8 @@
+<p>component1 works!</p>
+<div>
+  <input type = "text" #myId>
+  <button (click)="onClick(myId.value)">click</button>
+</div>
+<app-component2 [value]="myId.value"></app-component2>
+
+
